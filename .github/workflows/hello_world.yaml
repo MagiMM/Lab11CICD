@@ -1,5 +1,4 @@
 name: Hello World workflow
-name: Hello World workflow
 
 on:
   workflow_dispatch:
@@ -10,9 +9,3 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello world!"
-    runs-on: ... # here, define image on which we will run our job
-
-    # definitions of all job steps
-    steps:
-      - name: Print Hello World # step name, displayed on UI
-        run: ... # print "Hello world!" here

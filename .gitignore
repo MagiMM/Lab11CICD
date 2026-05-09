@@ -1,0 +1,40 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build/distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Notebook and local runtime noise
+.ipynb_checkpoints/
+
+# Environment/config secrets
+.env
+.env.*
+*.local
+
+# macOS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# ML/model artifacts generated during deployment steps
+model/
+*.onnx
